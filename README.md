@@ -4,7 +4,7 @@
 
 The objective of this project is to create a model that can accurately detect pneumonia in patients when provided with an x-ray of their lungs.
 
-![image1](images/xrays.png)
+![xrays.](./figures/xrays.png)
 
 
 Why?
