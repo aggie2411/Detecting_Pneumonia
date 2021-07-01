@@ -1,5 +1,3 @@
-
-
 # Detecting Pneumonia With Deep Learning
 
 The objective of this project is to create a model that can accurately detect pneumonia in patients when provided with an x-ray of their lungs.
@@ -51,18 +49,18 @@ The recall of the NORMAL class is vitally important too, and the difference betw
 
 ## Further Work
 
-- As with any project, more data the better. This dataset was relatively small at just 1000s of images. Ideally this would be in 10,000s or even 100,000s or into the millions. Of course this would then be beyond the limitations of my personal computer and would need to be cloud based
+As with any project, more data the better. This dataset was relatively small at just 1000s of images. Ideally this would be in 10,000s or even 100,000s or into the millions. Of course this would then be beyond the limitations of my personal computer and would need to be cloud based
 
-- Address the class imbalance to see if this has any impact on performance.
+Address the class imbalance to see if this has any impact on performance.
 
-- Further tuning of the final model could be carried out in an attempt to increase performance.
+Further tuning of the final model could be carried out in an attempt to increase performance.
 
-- Due to time constraints, I only experimented with one pre-trained model, ideally I would expand this to the list below:
-    - DenseNet
-    - InceptionResNetV2
-    - InceptionV3
-    - MobileNet
-    - NASNet
-    - ResNet50
-    - VGG16
-    - Xception
+Due to time constraints, I only experimented with one pre-trained model, ideally I would expand this to the list below:
+- DenseNet
+- InceptionResNetV2
+- InceptionV3
+- MobileNet
+- NASNet
+- ResNet50
+- VGG16
+- Xception
