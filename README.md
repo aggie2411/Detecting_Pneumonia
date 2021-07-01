@@ -1,8 +1,17 @@
 # Phase 1 Project Templates and Examples
 
-This repo contains templates and examples to help you get started with your Phase 1 Project. Each of these is in a separate branch as explained below.
+# Detecting Pneumonia With Deep Learning
 
-- The **template-mvp** branch is the template you should use to for your Phase 1 Project. MVP stands for Minimum Viable Product, but this isn't meant in a negative way - if your project uses this template, it will be functional and accessible.
+The objective of this project is to create a model that can accurately detect pneumonia in patients when provided with an x-ray of their lungs.
+
+
+
+Why?
+- Save on money, time and labor.
+- Ensure potable water is being provided to as many communities as possible
+
+It would be much better if the Tanzanian Government was able to focus its time and resources to deliver potable water across all communities in a more efficient manner.
+Being able to accurately identify pumps in need of repair or broken pumps would improve efficiency in terms of site visits, labor costs, materials and also be a way of informing communities of where they can find their nearest working pump 
 
 - The **example-mvp** branch is an example project using the MVP template.
 
