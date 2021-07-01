@@ -31,11 +31,15 @@ There is clear class imbalance in the dataset, something which can make it diffi
 The table above shows the results for each model that was used in this project.
 The results are using the hold out test data and where applicable refer only to the pneumonia class scores. 
 
-## Final Model - Augmented Data
+## Final Model - CNN with Augmented Data
 
 ![results.png](./figures/Augmented_Model.png)
 
 ## Conclusions
+
+The best model was the model that utilised augmentation to complement the existing training data set. 
+
+On the hold out data the model achieved a high accuracy of 0.93
 
 The recall and precision in the minority class (Normal) was also the highest achieved in any of the models. The recall of the PNEUMONIA class was not the best recorded at 0.98 vs 0.99 achieved in the other models. However these models had an unnacceptable recall in the Normal class, meaning many patients would go onto to be misdiagnosed with pneumonia.
 
@@ -45,10 +49,20 @@ This is an interesting choice therefore, why would I pick a model that misses mo
 
 The recall of the NORMAL class is vitally important too, and the difference between the best model in this metric (0.85) was so much higher than the next best (0.56). I see this as an unnacceptable number of people being diagnosed with Pneumonia that don't have it. This could potentially stop a patient being treated for the real underlying cause of their ailment and missing something more serious and or lead to perfectly healthy patients being treated for pneumonia that don't have it. This can waste valuable resources not only in terms of money on drugs, but also time of consultants etc.
 
-- The **example-mvp** branch is an example project using the MVP template.
+## Further Work
 
-Once you've completed your project using the MVP template, you can improve it using the Above and Beyond (AAB) template if you have time:
+- As with any project, more data the better. This dataset was relatively small at just 1000s of images. Ideally this would be in 10,000s or even 100,000s or into the millions. Of course this would then be beyond the limitations of my personal computer and would need to be cloud based
 
-- The **template-aab** branch is the AAB template to use to keep improving your project.
+- Address the class imbalance to see if this has any impact on performance.
 
-- The **example-aab** branch is an example project using the AAB template.
+- Further tuning of the final model could be carried out in an attempt to increase performance.
+
+- Due to time constraints, I only experimented with one pre-trained model, ideally I would expand this to the list below:
+    - DenseNet
+    - InceptionResNetV2
+    - InceptionV3
+    - MobileNet
+    - NASNet
+    - ResNet50
+    - VGG16
+    - Xception
