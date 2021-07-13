@@ -64,3 +64,7 @@ Due to time constraints, I only experimented with one pre-trained model, ideally
 - ResNet50
 - VGG16
 - Xception
+
+### References
+1. Plot Confusion Matrix Code - https://towardsdatascience.com/a-simple-cnn-multi-image-classifier-31c463324fa
+2. Data Augmentation Code - https://github.com/dubeyakshat07/Pneumonia-detection-using-CNN/blob/master/pneumonia-detection-using-only-cnn.ipynb
